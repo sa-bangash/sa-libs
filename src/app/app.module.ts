@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {NgxFullcalendarModule} from 'ngx-fullcalendar';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxFullcalendarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
